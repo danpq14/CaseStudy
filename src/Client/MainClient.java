@@ -65,6 +65,8 @@ public class MainClient {
                 case 7:
                     manager.release();
                     backToMenu();
+                case 0:
+                    System.exit(0);
             }
         }
     }

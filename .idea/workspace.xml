@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad79218f-9a47-4ead-a426-7e0da84c0012" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Client/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/PurchaseDataToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/ReleaseDataToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListProduct.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ListProduct.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Client/MainClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Client/MainClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Manager/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Manager/ProductManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Methods/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Methods/Find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Methods/PurchaseToInventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Methods/PurchaseToInventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Methods/ReleaseFromInventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Methods/ReleaseFromInventory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/MainClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Methods/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods/PurchaseToInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/PurchaseToInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods/ReleaseFromInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/ReleaseFromInventory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <workItem from="1589273457306" duration="2710000" />
       <workItem from="1589331592733" duration="6375000" />
       <workItem from="1589339239573" duration="5754000" />
-      <workItem from="1589351271265" duration="9341000" />
+      <workItem from="1589351271265" duration="11102000" />
     </task>
     <servers />
   </component>
@@ -123,22 +124,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589359289698" />
-    <state width="1237" height="523" key="GridCell.Tab.0.bottom" timestamp="1589360371354">
+    <state width="1237" height="523" key="GridCell.Tab.0.bottom" timestamp="1589362410328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589360371354" />
-    <state width="1237" height="523" key="GridCell.Tab.0.center" timestamp="1589360371354">
+    <state width="1237" height="523" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589362410328" />
+    <state width="1237" height="523" key="GridCell.Tab.0.center" timestamp="1589362410328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589360371354" />
-    <state width="1237" height="523" key="GridCell.Tab.0.left" timestamp="1589360371353">
+    <state width="1237" height="523" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589362410328" />
+    <state width="1237" height="523" key="GridCell.Tab.0.left" timestamp="1589362410328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589360371353" />
-    <state width="1237" height="523" key="GridCell.Tab.0.right" timestamp="1589360371354">
+    <state width="1237" height="523" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589362410328" />
+    <state width="1237" height="523" key="GridCell.Tab.0.right" timestamp="1589362410328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589360371354" />
+    <state width="1237" height="523" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589362410328" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589348964994">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
