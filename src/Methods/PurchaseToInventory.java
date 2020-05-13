@@ -1,0 +1,23 @@
+package Methods;
+
+import Product.Product;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class PurchaseToInventory {
+    public static void purchase(ArrayList<Product> products) {
+        Scanner sc = new Scanner(System.in);
+        int index = Search.search(products);
+        if (index != -1) {
+            System.out.println("Nhập số lượng hàng mới nhập về :");
+            int number = sc.nextInt();
+            int old = products.get(index).getInventoryNumber();
+            products.get(index).setInventoryNumber(old + number);
+            System.out.println("Nhập kho thành công");
+        }
+        else {
+            System.out.println("Ko tìm thấy sản phẩm");
+        }
+    }
+}
