@@ -1,1 +1,3 @@
-[Loại sản phẩm : Gạch |Tên sp : gạch vigla | Thương hiệu : Viglacera | Mã sp : vg6012 | Giá sp : 200000/m2 | Chất liệu : porcelain | Tồn kho : 0m2]
+Gạch Viglacera 6012,vg6012,Viglacera,210000,Porcelain,100,gạch
+Gạch Viglacera 6013,vg6013,Viglacera,195000,porcelain,0,gạch
+Gạch Viglacera 6014,vg6014,Viglacera,195000,porcelain,0,gạch

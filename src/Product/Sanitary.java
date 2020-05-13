@@ -24,4 +24,9 @@ public class Sanitary extends Product {
         String sanitary = "Loại SP : TBVS " + " | Tên sp : "+getName()+" | Thương hiệu : "+getBrand()+ " | Mã sp : "+getId()+ " | Giá : "+getPrice()+ "/bộ"+" | Loại : "+getType()+ " | Tồn kho : " +getInventoryNumber();
         return sanitary;
     }
+
+    @Override
+    public String writeToFile(){
+        return getName()+","+getId()+","+getBrand()+","+getPrice()+","+getType()+","+getInventoryNumber()+",tbvs";
+    }
 }

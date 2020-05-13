@@ -75,6 +75,7 @@ public class AddProduct {
             Sanitary newSanitary = new Sanitary(name, id, price, brand, type);
             products.add(newSanitary);
             System.out.println("Thêm mới sản phẩm thành công!!");
+            sc.nextLine();
         }
     }
 }

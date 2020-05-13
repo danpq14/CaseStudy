@@ -22,7 +22,12 @@ public class Tiles extends Product {
 
     @Override
     public String toString() {
-        String tile ="Loại sản phẩm : Gạch |" + "Tên sp : "+getName()+ " | Thương hiệu : " +getBrand()+ " | Mã sp : "+getId()+ " | Giá sp : "+getPrice()+"/m2"+" | Chất liệu : "+ getMaterial()+ " | Tồn kho : "+getInventoryNumber()+ "m2";
+        String tile ="Loại sản phẩm : Gạch |" + " Tên sp : "+getName()+ " | Thương hiệu : " +getBrand()+ " | Mã sp : "+getId()+ " | Giá sp : "+getPrice()+"/m2"+" | Chất liệu : "+ getMaterial()+ " | Tồn kho : "+getInventoryNumber()+ "m2";
         return tile;
+    }
+
+    @Override
+    public String writeToFile(){
+        return getName()+","+getId()+","+getBrand()+","+getPrice()+","+getMaterial()+","+getInventoryNumber()+",gạch";
     }
 }

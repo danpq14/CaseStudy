@@ -2,11 +2,12 @@ package Methods;
 
 import Product.Product;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class EditProduct {
-    public static void edit(ArrayList<Product> products) {
+    public static void edit(ArrayList<Product> products) throws IOException {
         Scanner sc = new Scanner(System.in);
         int index = Search.search(products);
         if (index != -1) {
@@ -16,6 +17,7 @@ public class EditProduct {
             System.out.println("3. Sửa thương hiệu");
             System.out.println("4. Sửa giá");
             int choice = sc.nextInt();
+            sc.nextLine();
             if (choice == 1 ) {
                 System.out.println("Nhập tên mới : ");
                 String newName = sc.nextLine();
@@ -43,6 +45,6 @@ public class EditProduct {
         if (index == -1) {
             System.out.println("Ko tìm thấy sản phẩm");
         }
-
+        Save.saveToFile(products);
     }
 }

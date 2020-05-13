@@ -2,10 +2,7 @@ package Methods;
 
 import Product.Product;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 
@@ -15,12 +12,13 @@ public class Save {
         if (!saveFile.exists()){
             saveFile.createNewFile();
         }
-        FileWriter fileWriter = new FileWriter(saveFile, true);
+        FileWriter fileWriter = new FileWriter(saveFile);
         BufferedWriter writer = new BufferedWriter(fileWriter);
+        PrintWriter printWriter = new PrintWriter(writer);
         String line = "";
         for (Product item : products) {
-            line = products.toString();
-            writer.write(line);
+            line = item.writeToFile();
+            printWriter.println(line);
         }
         writer.flush();
         writer.close();

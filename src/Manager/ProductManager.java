@@ -57,4 +57,13 @@ public class ProductManager implements Manager {
     public void checkInventory() {
         CheckInventory.checkInventory(products);
     }
+
+    public void importFromFile() throws IOException {
+        String filePath = "C:\\Users\\hp\\Desktop\\Module 2\\CaseStudy\\ListProduct.txt";
+        ImportFromFile.importFromFile(filePath, products);
+    }
+
+    public ArrayList<Product> getProducts() {
+        return products;
+    }
 }

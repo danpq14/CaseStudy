@@ -56,4 +56,7 @@ public class Product {
     public void setInventoryNumber(int inventoryNumber) {
         this.inventoryNumber = inventoryNumber;
     }
+    public String writeToFile(){
+        return null;
+    };
 }

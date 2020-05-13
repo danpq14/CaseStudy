@@ -1,8 +1,10 @@
 package Client;
 
 import Manager.ProductManager;
+import Product.Product;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MainClient {
@@ -21,6 +23,7 @@ public class MainClient {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         ProductManager manager = new ProductManager();
+        manager.importFromFile();
         System.out.println(">---Chương trình quản lý kho cửa hàng Nội Thất---<");
 
         int choice = -1;
@@ -32,19 +35,18 @@ public class MainClient {
             switch (choice) {
                 case 1 :
                     manager.find();
-                    showMenu();
                 case 2:
                     manager.addProduct();
-                    showMenu();
                 case 3:
                     manager.editProduct();
-                    showMenu();
                 case 4:
                     manager.removeProduct();
-                    showMenu();
                 case 5:
                     manager.checkInventory();
-                    showMenu();
+                case 6:
+                    manager.purchase();
+                case 7:
+                    manager.release();
             }
         }
 
