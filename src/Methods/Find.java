@@ -14,7 +14,6 @@ public class Find {
             System.out.println("2. Tìm kiếm theo mã");
             System.out.println("3. Tìm kiếm theo thương hiệu");
             System.out.println("4. Tìm kiếm theo chủng loại");
-            System.out.println("5. Thoát");
             choice = sc.nextInt();
             sc.nextLine();
 
@@ -32,6 +31,7 @@ public class Find {
                 if (productFound == 0) {
                     System.out.println("Ko tìm thấy sản phẩm như yêu cầu");
                 }
+                sc.nextLine();
             }
             else if (choice == 2) {
                 System.out.println("Nhập mã sản phẩm cần tìm kiếm : ");
@@ -47,6 +47,7 @@ public class Find {
                 if (productFound == 0) {
                     System.out.println("Ko tìm thấy sản phẩm như yêu cầu");
                 }
+                sc.nextLine();
             }
             else if (choice == 3) {
                 System.out.println("Nhập tên thương hiệu cần tìm kiếm : ");
@@ -62,6 +63,7 @@ public class Find {
                 if (productFound == 0) {
                     System.out.println("Ko tìm thấy sản phẩm như yêu cầu");
                 }
+                sc.nextLine();
             }
 
             else if (choice == 4) {
@@ -85,6 +87,7 @@ public class Find {
                         }
                     }
                 }
+                sc.nextLine();
             }
         }
     }

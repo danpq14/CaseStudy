@@ -20,12 +20,23 @@ public class MainClient {
         System.out.println("0. Thoát chương trình");
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void backToMenu() throws IOException {
         Scanner sc = new Scanner(System.in);
-        ProductManager manager = new ProductManager();
+        System.out.println("1. Quay về Menu chính");
+        int backToMenu = sc.nextInt();
+        sc.nextLine();
+        if (backToMenu == 1) {
+            userChoice();
+        }
+        else {
+            System.out.println("Chọn sai. Sẽ tự động thoát chương trình");
+            System.exit(0);
+        }
+    }
+    public static void userChoice() throws IOException {
+        Scanner sc = new Scanner(System.in);
+        ProductManager manager = ProductManager.getInstance();
         manager.importFromFile();
-        System.out.println(">---Chương trình quản lý kho cửa hàng Nội Thất---<");
-
         int choice = -1;
         while (choice != 0) {
             showMenu();
@@ -35,20 +46,26 @@ public class MainClient {
             switch (choice) {
                 case 1 :
                     manager.find();
+                    backToMenu();
                 case 2:
                     manager.addProduct();
+                    backToMenu();
                 case 3:
                     manager.editProduct();
+                    backToMenu();
                 case 4:
                     manager.removeProduct();
+                    backToMenu();
                 case 5:
                     manager.checkInventory();
+                    backToMenu();
                 case 6:
                     manager.purchase();
+                    backToMenu();
                 case 7:
                     manager.release();
+                    backToMenu();
             }
         }
-
     }
 }

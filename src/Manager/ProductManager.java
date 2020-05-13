@@ -9,12 +9,16 @@ import java.util.ArrayList;
 
 public class ProductManager implements Manager {
     private ArrayList<Product> products;
+    private static ProductManager instance;
 
-    public ProductManager(ArrayList<Product> products) {
-        this.products = products;
+    public static   ProductManager getInstance(){
+        if (instance == null) {
+            instance = new ProductManager();
+        }
+        return instance;
     }
 
-    public ProductManager() {
+    private ProductManager() {
         this.products = new ArrayList<Product>();
     }
 
