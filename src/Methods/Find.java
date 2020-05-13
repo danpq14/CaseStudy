@@ -31,7 +31,8 @@ public class Find {
                 if (productFound == 0) {
                     System.out.println("Ko tìm thấy sản phẩm như yêu cầu");
                 }
-                sc.nextLine();
+//                sc.nextLine();
+                break;
             }
             else if (choice == 2) {
                 System.out.println("Nhập mã sản phẩm cần tìm kiếm : ");
@@ -47,7 +48,8 @@ public class Find {
                 if (productFound == 0) {
                     System.out.println("Ko tìm thấy sản phẩm như yêu cầu");
                 }
-                sc.nextLine();
+//                sc.nextLine();
+                break;
             }
             else if (choice == 3) {
                 System.out.println("Nhập tên thương hiệu cần tìm kiếm : ");
@@ -63,7 +65,8 @@ public class Find {
                 if (productFound == 0) {
                     System.out.println("Ko tìm thấy sản phẩm như yêu cầu");
                 }
-                sc.nextLine();
+//                sc.nextLine();
+                break;
             }
 
             else if (choice == 4) {
@@ -87,7 +90,8 @@ public class Find {
                         }
                     }
                 }
-                sc.nextLine();
+//                sc.nextLine();
+                break;
             }
         }
     }

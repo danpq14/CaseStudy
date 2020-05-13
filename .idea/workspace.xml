@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad79218f-9a47-4ead-a426-7e0da84c0012" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Methods/PurchaseDataToFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/ReleaseDataToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/ListProduct.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/PurchaseData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/RealeaseData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListProduct.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ListProduct.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Client/MainClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Client/MainClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Methods/PurchaseToInventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Methods/PurchaseToInventory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Methods/ReleaseFromInventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Methods/ReleaseFromInventory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/MainClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Methods/PurchaseToInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/PurchaseToInventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Methods/ReleaseFromInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/ReleaseFromInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListProduct.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealeaseData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Manager/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Manager/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Methods/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Methods/Find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CaseStudy/Methods/Save.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaseStudy/Methods/Save.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods/PurchaseDataToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/PurchaseDataToFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods/ReleaseDataToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/ReleaseDataToFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/Save.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +46,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/File" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\Module 2\CaseStudy\src\File" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -100,7 +111,7 @@
       <workItem from="1589273457306" duration="2710000" />
       <workItem from="1589331592733" duration="6375000" />
       <workItem from="1589339239573" duration="5754000" />
-      <workItem from="1589351271265" duration="11102000" />
+      <workItem from="1589351271265" duration="12808000" />
     </task>
     <servers />
   </component>
@@ -124,22 +135,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589359289698" />
-    <state width="1237" height="523" key="GridCell.Tab.0.bottom" timestamp="1589362410328">
+    <state width="1237" height="523" key="GridCell.Tab.0.bottom" timestamp="1589364089714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589362410328" />
-    <state width="1237" height="523" key="GridCell.Tab.0.center" timestamp="1589362410328">
+    <state width="1237" height="523" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589364089714" />
+    <state width="1237" height="523" key="GridCell.Tab.0.center" timestamp="1589364089714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589362410328" />
-    <state width="1237" height="523" key="GridCell.Tab.0.left" timestamp="1589362410328">
+    <state width="1237" height="523" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589364089714" />
+    <state width="1237" height="523" key="GridCell.Tab.0.left" timestamp="1589364089714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589362410328" />
-    <state width="1237" height="523" key="GridCell.Tab.0.right" timestamp="1589362410328">
+    <state width="1237" height="523" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589364089714" />
+    <state width="1237" height="523" key="GridCell.Tab.0.right" timestamp="1589364089714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589362410328" />
+    <state width="1237" height="523" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589364089714" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589348964994">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -160,5 +171,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="96" width="538" height="495" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1589359062249" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589362982123">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589362982123" />
   </component>
 </project>

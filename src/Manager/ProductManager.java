@@ -63,7 +63,7 @@ public class ProductManager implements Manager {
     }
 
     public void importFromFile() throws IOException {
-        String filePath = "C:\\Users\\hp\\Desktop\\Module 2\\CaseStudy\\ListProduct.txt";
+        String filePath = "C:\\Users\\hp\\Desktop\\Module 2\\CaseStudy\\src\\File\\ListProduct.txt";
         ImportFromFile.importFromFile(filePath, products);
     }
 

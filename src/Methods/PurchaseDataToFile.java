@@ -11,7 +11,7 @@ public class PurchaseDataToFile {
         Date date = new Date();
         String time = date.toString();
         content = content + "| Ngày giờ nhập : " + time;
-        String fileImportPath = "C:\\Users\\hp\\Desktop\\Module 2\\CaseStudy\\PurchaseData.txt";
+        String fileImportPath = "C:\\Users\\hp\\Desktop\\Module 2\\CaseStudy\\src\\File\\PurchaseData.txt";
         File fileImport = new File(fileImportPath);
         if (!fileImport.exists()){
             fileImport.createNewFile();

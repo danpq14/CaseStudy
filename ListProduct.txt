@@ -1,4 +1,0 @@
-Gạch Viglacera 6012,vg6012,Viglacera,205000,Porcelain,180,gạch
-Gạch Viglacera 6013,vg6013,Viglacera,195000,porcelain,92,gạch
-Gạch Viglacera 6014,vg6014,Viglacera,195000,porcelain,250,gạch
-Gạch Viglacera 6015,vg6015,Viglacera,210000,porcelain,260,gạch

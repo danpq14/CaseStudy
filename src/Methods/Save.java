@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Save {
     public static void saveToFile(ArrayList<Product> products) throws IOException {
-        File saveFile = new File("C:\\Users\\hp\\Desktop\\Module 2\\CaseStudy\\ListProduct.txt");
+        File saveFile = new File("C:\\Users\\hp\\Desktop\\Module 2\\CaseStudy\\src\\File\\ListProduct.txt");
         if (!saveFile.exists()){
             saveFile.createNewFile();
         }

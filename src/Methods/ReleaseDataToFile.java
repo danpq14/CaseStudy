@@ -11,7 +11,7 @@ public class ReleaseDataToFile {
         Date date = new Date();
         String time = date.toString();
         content = content + "| Ngày giờ xuất : " + time;
-        String fileImportPath = "C:\\Users\\hp\\Desktop\\Module 2\\CaseStudy\\RealeaseData.txt";
+        String fileImportPath = "C:\\Users\\hp\\Desktop\\Module 2\\CaseStudy\\src\\File\\RealeaseData.txt";
         File fileImport = new File(fileImportPath);
         if (!fileImport.exists()){
             fileImport.createNewFile();
